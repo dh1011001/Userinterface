@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface\\Userinterface.csproj": {}
+    "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface\\Userinterface.csproj": {
+    "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface\\Userinterface.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface.csproj",
         "projectName": "Userinterface",
-        "projectPath": "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface\\Userinterface.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\Userinterface\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\a1qa\\Userinterface\\Userinterface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
