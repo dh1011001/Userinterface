@@ -11,7 +11,6 @@
 
   <ItemGroup>
     <None Remove="Resources\Config.json" />
-    <None Remove="Resources\Test Data\Peppa_the_pig.png" />
     <None Remove="Resources\Test Data\Test_Data.json" />
   </ItemGroup>
 
@@ -31,9 +30,6 @@
     <EmbeddedResource Include="Resources\Config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Test Data\Peppa_the_pig.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Test Data\Test_Data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -41,7 +37,6 @@
 
   <ItemGroup>
     <PackageReference Include="Aquality.Selenium" Version="4.12.0" />
-    <PackageReference Include="AutoItX.Dotnet" Version="3.3.14.5" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
@@ -56,6 +51,14 @@
     <Reference Include="AutoItX3.Assembly">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\AutoIt3\AutoItX\AutoItX3.Assembly.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\user\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\user\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3_x64.dll" />
   </ItemGroup>
 
 </Project>

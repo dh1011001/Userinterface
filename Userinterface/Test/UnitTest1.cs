@@ -11,44 +11,6 @@ namespace Userinterface
 {
     public class Tests : BaseTest
     {
-        /*[Test]
-        public void LoginTest()
-        {
-            Logger.Instance.Info("Start case 1 step 1");
-
-            WelcomePage welcomePage = new WelcomePage();
-            Assert.IsTrue(welcomePage.State.WaitForDisplayed(), "Welcome page was not opened");
-
-            Logger.Instance.Info("Start case 1 step 2");
-
-            welcomePage.ClickNextLink();
-            Card1 card1 = new Card1();
-            Assert.IsTrue(card1.State.WaitForDisplayed(), "Card_1 page was not opened");
-            Logger.Instance.Info("Start case 1 step 3");
-            string emailFirstPart = RandomUtils.CreateRandomString();
-            string Domain = RandomUtils.CreateRandomString();
-            string Password = RandomUtils.CreateCrazyPassword(emailFirstPart);
-            card1.SendEmailFirsPart(emailFirstPart);
-            card1.SendDomain(Domain);
-            card1.SendPassword(Password);
-            card1.SelectItemInDomainDropdownList();
-            card1.clickAcceptCheckBox();
-            card1.clickNextButton();
-            Card2 card2 = new Card2();
-            Assert.IsTrue(card2.State.WaitForDisplayed(), "Card_2 page was not opened");
-
-            Logger.Instance.Info("Start case 1 step 4");
-
-            var exePath = AppDomain.CurrentDomain.BaseDirectory;
-            card2.uploadImage(Path.Combine(exePath, TestData.localPathToAvatarImage));
-            card2.UnCheckAllInterests();
-            card2.CheckInterests(TestData.interestsCountToCheck);
-            card2.clickNextButton();
-            Card3 card3 = new Card3();
-            Assert.True(card3.State.WaitForDisplayed(), "Card_3 page was not opened");
-
-            
-        }*/
         [Test]
         public void HideHelpForm()
         {

@@ -58,12 +58,6 @@
           }
         }
       },
-      "AutoItX.Dotnet/3.3.14.5": {
-        "type": "package",
-        "build": {
-          "build/AutoItX.Dotnet.targets": {}
-        }
-      },
       "coverlet.collector/3.2.0": {
         "type": "package",
         "build": {
@@ -779,22 +773,6 @@
         "aquality.selenium.core.nuspec",
         "lib/netstandard2.0/Aquality.Selenium.Core.dll",
         "lib/netstandard2.0/Aquality.Selenium.Core.xml"
-      ]
-    },
-    "AutoItX.Dotnet/3.3.14.5": {
-      "sha512": "pobGb0PovHfJLH6tC2wsmafuZSI3u9ThqyHBebipVm9I/eDjzXZ6E6O84vUpE48lwTxPmtPm2HN/1tq0aLbM0Q==",
-      "type": "package",
-      "path": "autoitx.dotnet/3.3.14.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "autoitx.dotnet.3.3.14.5.nupkg.sha512",
-        "autoitx.dotnet.nuspec",
-        "build/AutoItX.Dotnet.targets",
-        "build/AutoItX3.dll",
-        "build/AutoItX3_x64.dll",
-        "lib/AutoItX3.Assembly.dll",
-        "lib/AutoItX3.Assembly.xml"
       ]
     },
     "coverlet.collector/3.2.0": {
@@ -1939,7 +1917,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Aquality.Selenium >= 4.12.0",
-      "AutoItX.Dotnet >= 3.3.14.5",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -1992,10 +1969,6 @@
           "Aquality.Selenium": {
             "target": "Package",
             "version": "[4.12.0, )"
-          },
-          "AutoItX.Dotnet": {
-            "target": "Package",
-            "version": "[3.3.14.5, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
