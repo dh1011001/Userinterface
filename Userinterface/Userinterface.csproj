@@ -15,18 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <COMReference Include="AutoItX3Lib">
-      <VersionMinor>0</VersionMinor>
-      <VersionMajor>1</VersionMajor>
-      <Guid>f8937e53-d444-4e71-9275-35b64210cc3b</Guid>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>false</Isolated>
-      <EmbedInteropTypes>true</EmbedInteropTypes>
-    </COMReference>
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Include="Resources\Config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>

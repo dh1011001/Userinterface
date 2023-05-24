@@ -3,7 +3,6 @@ using Aquality.Selenium.Elements;
 using Aquality.Selenium.Elements.Interfaces;
 using Aquality.Selenium.Forms;
 using OpenQA.Selenium;
-using AutoItX3Lib;
 using System.Threading;
 using Aquality.Selenium.Core.Elements;
 using Userinterface.Test.Supporting_Classes;
@@ -27,7 +26,6 @@ namespace Userinterface.Test.Form_Objects
         public void uploadImage(string path)
         {
             uploadButton.Click();
-            AutoITUtils.UploadFile(path);
         }
 
         public void UnCheckAllInterests() 
